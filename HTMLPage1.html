@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartamente</title>
+    <link rel="stylesheet" href="Tipasite.css">
+</head>
+<body>
+    <header>
+        <h1>Apartamente de vânzare</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Acasă</a></li>
+                <li><a href="#">Apartamente</a></li>
+                <li><a href="#">Despre noi</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Cumpără-ți apartamentul visurilor tale</h2>
+            <p>Aici găsești cele mai bune oferte pentru apartamentele de care ai nevoie.</p>
+            <button>Vezi ofertele</button>
+        </section>
+        <section class="apartments">
+            <article>
+                <img src="apartament1.jpg" alt="Apartament 1">
+                <h3>Apartament 1</h3>
+                <p>Preț: 100.000 euro</p>
+                <a href="apartament1.html">Detalii</a>
+            </article>
+            <article>
+                <img src="apartament2.jpg" alt="Apartament 2">
+                <h3>Apartament 2</h3>
+                <p>Preț: 120.000 euro</p>
+                <a href="apartament2.html">Detalii</a>
+            </article>
+            <article>
+                <img src="apartament3.jpg" alt="Apartament 3">
+                <h3>Apartament 3</h3>
+                <p>Preț: 150.000 euro</p>
+                <a href="apartament3.html">Detalii</a>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Apartamente. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+            nav ul li a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .intro {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+        .intro h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+    .apartments {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .article {
+        flex-basis: calc(33.33% - 20px);
+        margin-bottom: 40px;
+    }
+
+        .article img { }
+</style>
